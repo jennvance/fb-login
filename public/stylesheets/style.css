@@ -1,8 +1,61 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+h1.logo {
+	margin: 5px;
+	position: absolute;
+}
+
+.navbar {
+	background-color: #8ed2fb;
+	margin: 0px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-default .navbar-nav li > a {
+	color: black;
+}
+
+.navbar-default .navbar-nav li > a:hover {
+	color: white;
+}
+
+.jheader {
+	text-align: center;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+.jumbotron {
+	background-image: url("/images/books.jpg");
+	height: 350px;
+}
+
+h1.slogan {
+	font-size: 48px;
+	color: white;
+}
+
+.row {
+	padding: 2%;
+}
+
+.modal input {
+	width: 75%;
+	margin: 0 auto;
+}
+
+.howitworks {
+	text-align: center;
+	font-size: 20px;
+}
+
+.howitworks a {
+	color: #13a2f6;
 }

@@ -1,0 +1,14 @@
+extends layout
+
+block content
+	p Hi #{user.name}, what are you writing?
+	form
+		input(type='text', name='title', placeholder='Working Title')
+		input(type='text', name='synopsis', placeholder='Brief Synopsis')
+		input(type='submit')
+	p Who are you writing for?
+	form
+		select
+			option 1
+			option 2
+			option 3

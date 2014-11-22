@@ -1,0 +1,28 @@
+1. User logs in with FB (done)
+1.5 User logs in with email/password
+2. Author goes to "find a beta reader" page and describes:
+	-working title
+	-genre
+	-brief synopsis
+	-preferred demographic
+	-non-writer reader vs reader who is also a writer
+
+
+
+3. Author hits enter, and site immediately displays all Readers who match their preferred demo.
+
+4. Readers should be allowed to select FAVORITE genres as well as kind they're merely "willing to read".... maybe??
+4.5 So have..."top matches" and "we also recommend" ????
+
+5. Once Author selects a reader, she pays, money gets put into reader's account BUT READER CAN'T ACCESS UNTIL HAS SUBMITTED FEEDBACK TO THE AUTHOR
+
+6. Author uploads manuscript at the time of payment, plus specific questions to ask Beta reader in addition to our generic feedback form.
+
+7. Reader receives manuscript, plus specific instructions on how to proceed, plus timeline for producing feedback.
+
+8. Reader writes feedback. (Use service that allows notes to be written in margins of manuscript??)
+
+9. Author receives it, then rates the quality of the feedback. (This is dangerous, bc honest negative feedback might be punished with poor ratings)
+
+10. Feedback is...not made public? And only used to decide whether to recommend a reader in the future....?
+

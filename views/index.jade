@@ -1,5 +1,49 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+	//- h2 Hand picked betas.
+	//- 	//- p: a(href='/auth/facebook') Log In With Facebook
+	//- form#newpost
+	//- 	input(type='text', name='title', placeholder='Name')
+	//- 	input(type='text', name='content', placeholder='Content')
+	//- 	input(type='submit')
+	//- ul#posts
+	.container-fluid
+		.jumbotron
+			.row.jheader
+				.col-lg-8
+					h1.slogan Your First Reader. Because Only Mom Thinks You're Perfect.
+				.col-lg-4
+					button.btn.btn-warning.btn-lg(type="button", data-toggle="modal", data-target="#myModal") Get Your First Reader Free
+					//- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
+					<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+					<div class="modal-content">
+					<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+					<h4 class="modal-title" id="myModalLabel">Sign up and get a $20 credit toward your first readers.</h4>
+					</div>
+					<div class="modal-body">No spam. Just tips on how to get the most out of your Readrr experience.</div>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Your email address">
+					<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">No, thank you</button>
+					<button type="button" class="btn btn-primary">Get my $20 Credit</button>
+					</div>
+					</div>
+					</div>
+					</div>
+		.row.jheader
+			h2 Find a Beta Reader. Get Feedback BEFORE You Hit Publish
+			p Get a Beta reader for honest feedback before you publish. Request a reader with one click, and get feedback in as little as 48 hours.
+		.row.howitworks
+			a(href="#") How it Works >>
+		.row
+			.col-lg-4
+				h3 Effortless
+				p Well, relatively - you do have to write your manuscript first. You tell us what genre and demographic your book is targeting and we'll find you a reader who matches that description. Receive feedback in as little as 48 hours.
+			.col-lg-4
+				h3 Carefully Curated Readers
+				p Inviting fans to critique your story lets you make changes before you release it to the world, increasing the book's potential value for its entire "shelf-life."
+			.col-lg-4
+				h3 Risk Free
+				p We utilize an anonymous rating system to maintain the highest standards of quality for both authors and readers alike. 

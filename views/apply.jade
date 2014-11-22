@@ -1,0 +1,16 @@
+extends layout
+
+block content
+	h2 Apply here.
+		//- p: a(href='/auth/facebook') Log In With Facebook
+	form(role='form', method='post', action='/formsubmit')
+		.form-group
+			input(type='text', name='firstname', placeholder='First Name')
+		.form-group
+			input(type='text', name='lastname', placeholder='Last Name')
+		.form-group
+			input(type='text', name='email', placeholder='Email Address')
+		.form-group
+			input(type='text', name='referralcode', placeholder='Referral Code (Optional)')
+		.form-group
+			input(type='submit') 
