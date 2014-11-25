@@ -1,4 +1,28 @@
 extends layout
 
 block content
-	h1 hi!
+	.jumbotron.how
+		h4 Step 1: Request a reader with one click. Get matched. (Select your match).
+		//- button.btn.btn-default.btn-warning#scrollone(type="button" href='#slidetwo') V
+		a.btn.btn-warning#scrollone(type="button", href="#slidetwo") v
+	.jumbotron.how#slidetwo
+		h4 Step 2: Track your reader's progress as they move through your manuscript.
+		//- button.btn.btn-default.btn-warning#scrolltwo(type="button") V
+		a.btn.btn-warning#scrolltwo(type="button", href="#slidethree") v
+	.jumbotron.how#slidethree
+		h4 Step 3: Review Feedback, Select "Accept", and your card will be charged.
+		h4 (Side Note about "accept": If you do not accept constructive feedback, you must explain why. Rejecting too many times will get you banned.)
+		//- button.btn.btn-default.btn-warning#scrollthree(type="button") V
+		a.btn.btn-warning#scrollthree(type="button", href="#slidefour") v
+	.jumbotron.how#slidefour
+		h4 Step 4: Rate your reader. (Readers with ratings that average below 3.5 will be banned. Readers must have at least 3 "accepts" to see their calculated rating. 3 "rejects" in a row, or out of 5, will get them banned.)
+		//- button.btn.btn-default.btn-warning#scrollfour(type="button") V
+		a.btn.btn-warning#scrollfour(type="button", href="#slidefive") v
+	.jumbotron.how#slidefive
+		h4 Step 5: Edit your manuscript and Publish!
+	a(href='#') Find a Beta Reader Now
+
+block stylesheet
+	link(rel='stylesheet', href='/stylesheets/howitworks.css')
+block script
+	script(type='text/javascript', src='/javascripts/howitworks.js')

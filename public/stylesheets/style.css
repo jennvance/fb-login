@@ -32,7 +32,7 @@ h1.logo {
 	padding: 0px;
 }
 
-.jumbotron {
+.jumbotron.index {
 	background-image: url("/images/books.jpg");
 	height: 350px;
 }
@@ -59,3 +59,9 @@ h1.slogan {
 .howitworks a {
 	color: #13a2f6;
 }
+
+/*.jumbotron.how {
+	color: white;
+	background-image: url("/images/books.jpg");
+	height: 500px;
+}*/
