@@ -17,6 +17,7 @@ var betas = require('./routes/betas');
 var api = require('./routes/api');
 var apply = require('./routes/apply');
 var howitworks = require('./routes/howitworks');
+var readerappform = require('./routes/formsubmit');
 
 var app = express();
 
@@ -45,6 +46,7 @@ app.use('/betas', betas);
 app.use('/api', api);
 app.use('/apply', apply);
 app.use('/howitworks', howitworks);
+app.use('/formsubmit', readerappform);
 
 app.use(passportConfig.ensureAuthenticated);
 app.use('/users', users);

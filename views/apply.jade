@@ -1,16 +1,21 @@
 extends layout
 
 block content
-	h2 Apply here.
-		//- p: a(href='/auth/facebook') Log In With Facebook
-	form(role='form', method='post', action='/formsubmit')
-		.form-group
-			input(type='text', name='firstname', placeholder='First Name')
-		.form-group
-			input(type='text', name='lastname', placeholder='Last Name')
-		.form-group
-			input(type='text', name='email', placeholder='Email Address')
-		.form-group
-			input(type='text', name='referralcode', placeholder='Referral Code (Optional)')
-		.form-group
-			input(type='submit') 
+	.readerapplyform
+		h2 Apply here.
+			//- p: a(href='/auth/facebook') Log In With Facebook
+		form(role='form', method='post', action='/formsubmit')
+			.form-group
+				input(type='text', name='firstname', placeholder='First Name', value='rfcrvbfae')
+			.form-group
+				input(type='text', name='lastname', placeholder='Last Name', value='rfcrvbae')
+			.form-group
+				input(type='text', name='email', placeholder='Email Address', value='rfcrvbfe')
+			.form-group
+				input(type='text', name='referralcode', placeholder='Referral Code (Optional)' value='rfrvbfae')
+			.form-group
+				textarea(type='text',name='why', placeholder='Why Do You Want To Be a Beta Reader? (Minimum: 200 words, maximum: 500 words)', rows=5, cols=30) Fuckme
+			.form-group
+				textarea(type='text', name='favoritebooks', placeholder='What are your 5 favorite books?', rows=5, cols=30) Test
+			.form-group
+				input(type='submit') 

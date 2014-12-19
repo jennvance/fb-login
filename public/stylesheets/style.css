@@ -65,3 +65,40 @@ h1.slogan {
 	background-image: url("/images/books.jpg");
 	height: 500px;
 }*/
+
+.readerapplyform {
+	text-align: center;
+}
+
+.footer {
+	background-color: dimgray;
+	color: white;
+	margin-top: 3%;
+}
+
+.column {
+	display: inline-block;
+	max-width: 20%;
+	padding: 20px 40px;
+}
+
+.column h5 {
+	font-size: 16px;
+}
+
+.footer ul {
+	padding-left: 0px;
+}
+
+.footer li {
+	list-style-type: none;
+	padding: 3px 0px;
+}
+
+.column li > a {
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+}

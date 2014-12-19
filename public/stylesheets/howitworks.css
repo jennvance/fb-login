@@ -3,3 +3,23 @@
 	background-image: url("/images/books.jpg");
 	height: 500px;
 }
+
+a#scrollone, a#scrolltwo, a#scrollthree, a#scrollfour {
+	margin-left: 48%;
+	margin-top: -120px;
+	border-radius: 100px;
+}
+
+.test {
+	padding-bottom: 300px;
+}
+
+.find {
+	margin-left: 32%;
+	font-size: 32px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #8ed2fb;
+	padding: 2%;
+	border-radius: 10px;
+}
